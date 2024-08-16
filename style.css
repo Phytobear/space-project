@@ -86,12 +86,117 @@ nav a:hover {
   color: black;
 }
 
+.box-tickets {
+  display: flex;
+  position: absolute;
+  left: 48px;
+  top: 1434px;
+  color: white;
+  flex-direction: column;
+  line-height: 24px;
+  row-gap: 14.4px;
+  column-gap: 14.4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-tickets p {
+  text-transform: uppercase;
+  font-weight: 100;
+  opacity: 1;
+  font-size: 19.2px;
+  margin-bottom: 8px;
+}
+
+.box-tickets h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-tickets a {
+  margin-top: 20px;
+  display: inline-block;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13.6;
+  letter-spacing: 2px;
+  opacity: 1;
+  color: white;
+  border: 2px solid white;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+}
+
+.box-tickets a:hover {
+  background-color: white;
+  color: black;
+}
+
+.box-deals {
+  display: flex;
+  position: absolute;
+  left: 48px;
+  top: 2253px;
+  color: white;
+  flex-direction: column;
+  line-height: 24px;
+  row-gap: 14.4px;
+  column-gap: 14.4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-deals p {
+  text-transform: uppercase;
+  font-weight: 100;
+  opacity: 1;
+  font-size: 19.2px;
+  margin-bottom: 8px;
+}
+
+.box-deals h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 100%;
+}
+
+.box-deals a {
+  margin-top: 20px;
+  display: inline-block;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13.6;
+  letter-spacing: 2px;
+  opacity: 1;
+  color: white;
+  border: 2px solid white;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+}
+
+.box-deals a:hover {
+  background-color: white;
+  color: black;
+}
+
 .galaxy-image-1 {
   background-image: url(https://services.meteored.com/img/article/the-search-for-life-85-potential-exoplanets-discovered-1707051646011_1024.jpg);
 }
 
 .galaxy-image-2 {
   background-image: url(https://images.unsplash.com/photo-1501862700950-18382cd41497?q=80&w=2019&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.eclips-image {
+  background-image: url(https://press.princeton.edu/sites/default/files/styles/hero_square/public/image/2024-04/EDIT_ian-parker-rWey_wseEcY-unsplash.jpg?itok=rz46H-hD);
 }
 
 .feature {
