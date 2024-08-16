@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  color: rgb(255, 255, 255);
+  display: flex;
+  padding-top: 30px;
+  padding-left: 48px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  gap: 30px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  row-gap: 20px;
+  column-gap: 20px;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.box-mid {
+  display: flex;
+  position: absolute;
+  left: 48px;
+  top: 512px;
+  color: white;
+  flex-direction: column;
+  line-height: 24px;
+  row-gap: 14.4px;
+  column-gap: 14.4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-mid p {
+  text-transform: uppercase;
+  font-weight: 100;
+  opacity: 1;
+  font-size: 19.2px;
+  margin-bottom: 8px;
+}
+
+.box-mid h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-mid a {
+  margin-top: 20px;
+  display: inline-block;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13.6;
+  letter-spacing: 2px;
+  opacity: 1;
+  color: white;
+  border: 2px solid white;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+}
+
+.box-mid a:hover {
+  background-color: white;
+  color: black;
+}
+
+.galaxy-image-1 {
+  background-image: url(https://services.meteored.com/img/article/the-search-for-life-85-potential-exoplanets-discovered-1707051646011_1024.jpg);
+}
+
+.galaxy-image-2 {
+  background-image: url(https://images.unsplash.com/photo-1501862700950-18382cd41497?q=80&w=2019&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.feature {
+  background-size: cover;
+  background-position: center;
+  height: 100svh;
+  background-repeat: no-repeat;
+}
